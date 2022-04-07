@@ -1,0 +1,43 @@
+.header{
+  background-color: gray;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.container, .container2, .container3, .container4, .container5{
+  background-color: gray;
+  border: 2px solid black;
+  font-size: 20px;
+  display: flex;
+  flex-flow: row wrap;/*Define O flex-direction e o flex-wrap juntamente. */
+  margin: 20px;
+  text-align: center;
+}
+
+
+.container div, .container2 div, .container3 div, .container4 div, .container5 div{
+  background-color: rgb(202, 108, 108);
+  border: 1px solid black;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.footer{
+  background-color: gray;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
